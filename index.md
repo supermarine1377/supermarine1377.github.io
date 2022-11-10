@@ -44,6 +44,11 @@
 
 ### インフラ
 
+コンテナやオーケストラレーション技術
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
 クラウド
 
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
@@ -65,7 +70,15 @@ IaC
 
 自社製品のコンテンツ管理システムの新機能開発を行なっている。
 
-2022年上半期では、Go言語やTerraform, GCPによるマイクロサービス開発を担当し、自社製品に組み入れることで、新機能のリリースを行なった。
+#### 2022年上半期
+
+自社製品のコンテンツ管理システム（CMS, 複数テナント存在）への新機能導入を担当。
+
+既存のテナントから独立したサーバーやDBを持つマイクロサービスを構築し、自社CMSに組み入れることで、CMSにとっては付加価値の高い新機能を導入した。
+
+また、独立したマイクロサービスのため、他のテナントへの新機能導入も容易。
+
+マイクロサービスの構築に用いた技術としては、Go言語, GCPのサーバーレスなサービス（Cloud Runなど）、DBをサービスとして提供するMongo Atlasなど。
 
 ### 株式会社アクア (2020年4月から2022年3月)
 
