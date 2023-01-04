@@ -30,7 +30,7 @@ Key achievement:
 
 **Software Engineer**
 
-aqua.co.ltd.
+Aqua.co.ltd.
 
 Apr.2020-Mar.2022
 
