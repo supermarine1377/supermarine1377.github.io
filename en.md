@@ -26,7 +26,7 @@ Apr.2022-present
 
 Key achievement:
 
-- Built a new Git-like microservice to introduce new features into our CMS. The microservice offers the REST programming interfaces to create an edit-history of our article in CMS and to retrieve the histories.
+- Built a new Git-like microservice to introduce new features into our CMS. The microservice offers the REST programming interfaces to create an edit-history of our article in the CMS and to retrieve the histories.
 
 **Software Engineer**
 
