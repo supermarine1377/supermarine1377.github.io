@@ -49,6 +49,12 @@ Tokyo University
 
 Apr.2018-Mar.2020
 
+**Bachelor of physics**
+
+Yokohama National University
+
+Apr.2014-Mar.2018
+
 ## Skills
 
 - Software development 
