@@ -9,7 +9,7 @@ I'm about 3-years experienced software engineer at Tokyo and now working for ZUU
 My experienced technologies are:
 
 server-side: Golang, Terraform, k8s, GCP, postgres, NoSQL
-front-end: JavaScript, TypeScript, React, Nuxt
+front-end: JavaScript, TypeScript, React, NuxtJS
 
 ## Experience
 
