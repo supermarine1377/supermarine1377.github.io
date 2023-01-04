@@ -39,7 +39,7 @@ Apr.2020-Mar.2022
 
 Key achievement:
 
-- To build the entire system, I took some major parts in system designing and implementing features using the both of front-end techs and server-side techs.
+- To build the entire system, I took some major parts in system designing and implementing main features using the both of front-end techs and server-side techs.
 
 ## Education
 
