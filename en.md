@@ -35,7 +35,7 @@ aqua.co.ltd.
 Apr.2020-Mar.2022
 
 - Built a B2C new system to enable customers and retail shop clerks to talk with each other via ZOOM in their web browsers.
-- Build a B2C new system to offer live-steaming or recorded videos of beautiful view from train window to consumers.
+- Build a B2C new system to offer live-steaming or recorded videos of beautiful view from a train window to consumers.
 
 Key achievement:
 
