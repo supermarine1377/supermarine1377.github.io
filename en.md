@@ -4,7 +4,7 @@
 
 Name: Ryo Koezuka
 
-I'm about 3-years experienced software engineer at Tokyo and now working for ZUU.co.ltd. as a member of the software engineering team. In ZUU.co.ltd., our team are making some commitments with others to introduce new features into the existing our Contents Management System(CMS) and building a new CMS to replace the old one.
+I'm about 3-years experienced software engineer at Tokyo and now working for ZUU.co.ltd. as a member of the software engineering team. In ZUU.co.ltd., our team are making some commitments with others to introduce new features into the existing our Contents Management System(CMS) and to build a new CMS to replace the old one.
 
 My experienced technologies are:
 
