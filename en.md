@@ -41,7 +41,7 @@ Key achievement:
 
 - To build the entire system, I took some major parts in system designing and implementing features using the both of front-end techs and server-side techs.
 
-## Education**
+## Education
 
 **Master of physics**
 
@@ -60,4 +60,5 @@ Apr.2018-Mar.2020
 
 ## Languages
 
+- Japanese
 - English
