@@ -1,0 +1,1 @@
+I got tech icons from https://badges.pages.dev/
