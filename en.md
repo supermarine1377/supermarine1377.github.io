@@ -1,122 +1,92 @@
-# Resume
+# Ryo Koezuka
 
-## Basic Information
+supermarinep@outlok.jp
 
-|Item|Details|
-|---|---|
-|Name|Ryo Koezuka|
-|Date of Birth|November 26, 1994|
-|Location|Tokyo, Japan|
-|Education|Master’s degree in Physics, Graduate School of Science, University of Tokyo|
-|Email Address|supermarine@outlook.jp|
-|Certifications|Applied Information Technology Engineer Certification|
-|Profile|Graduated from Yokohama National University, School of Engineering, and completed a Master's program at the University of Tokyo's Graduate School of Science. Currently working as a Software Engineer at ZUU Inc. Primarily responsible for the maintenance and operation of in-house product development.|
+---
+
+## Summary / Professional Summary
+
+Highly motivated and results-oriented Software Engineer with 3+ years of experience specializing in the maintenance and operations of web applications, leveraging a strong background in cloud infrastructure (GCP), backend development (Go), and team leadership. Proven ability to enhance system reliability, resolve critical incidents swiftly, optimize performance, and contribute to product evolution through strategic development and architectural design. Demonstrated success in improving operational efficiency, standardizing processes, and mentoring team members in a fast-paced environment. Seeking to apply comprehensive technical skills and leadership experience to contribute to challenging projects.
 
 ---
 
 ## Skills
 
-- **Web Application Development**  
-  Experience in server-side development for web applications.  
-  Proficient in Go, database design, infrastructure setup, and microservices development.
+### Technical Skills:
 
-- **Facilitation**  
-  Experienced in facilitating meetings to ensure objectives are met within limited time frames.
+*   **Languages:** Go, Vue.js, SQL
+*   **Cloud & Infrastructure:** Google Cloud Platform (GCP - GKE, Cloud Run, Compute Engine, Cloud SQL, Cloud Armor, Cloud Build, Container Registry, Memorystore, Cloud Monitoring, Cloud Storage, Cloud Function, Cloud CDN, Cloud Load Balancer, Pub/Sub), Terraform, Docker, Kubernetes, Helm
+*   **Databases:** PostgreSQL, MongoDB, Redis, ElasticSearch
+*   **Monitoring & Logging:** Datadog, Cloud Monitoring, ElasticSearch
+*   **CI/CD:** GitHub Actions, CircleCI, Argo CD, Spinnaker
+*   **Project Management & Collaboration:** Backlog, Slack, FigJam, Google Documents
+*   **BI & Data:** Google BigQuery, dbt, Looker Studio
+*   **Version Control:** Git, GitHub
+*   **CMS:** WordPress
 
-- **Finance**  
-  Interested in finance and investment due to work experience in a financial industry-related company.
+### Other Skills:
 
----
-
-## Technical Stack
-
-### Backend
-
-Languages, Unit Testing:  
-![Go Badge](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=fff&style=flat)
-
-Databases:  
-![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=flat)  
-![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=flat)
-
-Infrastructure:  
-![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=flat)  
-![Google Cloud Badge](https://img.shields.io/badge/Google%20Cloud-4285F4?logo=googlecloud&logoColor=fff&style=flat)  
-![Kubernetes Badge](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=fff&style=flat)  
-![Helm Badge](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=fff&style=flat)  
-![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=fff&style=flat)
-
-CI:  
-![GitHub Actions Badge](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=flat)  
-![CircleCI Badge](https://img.shields.io/badge/CircleCI-343434?logo=circleci&logoColor=fff&style=flat)
-
-Deployment:  
-![ArgoCD](https://img.shields.io/badge/Argo%20CD-1e0b3e?style=for-the-badge&logo=argo&logoColor=#d16044)  
-![Spinnaker](https://img.shields.io/badge/Spinnaker-139BB4?logo=spinnaker&logoColor=fff&style=flat)
-
-### Frontend
-
-![Vue.js Badge](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=fff&style=flat)  
-![Nuxt.js Badge](https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxtdotjs&logoColor=fff&style=flat)
-
-### BI (Business Intelligence)
-
-![Google BigQuery Badge](https://img.shields.io/badge/Google%20BigQuery-669DF6?logo=googlebigquery&logoColor=fff&style=flat)  
-![dbt Badge](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=fff&style=flat)  
-![Looker Badge](https://img.shields.io/badge/Looker-4285F4?logo=looker&logoColor=fff&style=flat)
-
-### Others
-
-![Git Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff&style=flat)  
-![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat)  
-![WordPress Badge](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=fff&style=flat)
+*   Team Leadership & Management (Led a 3-4 member team)
+*   Facilitation (Ensuring meeting objectives are met efficiently)
+*   Investment (Exploring individual stock investment, reflecting interest in finance)
 
 ---
 
-## Work Experience
+## Professional Experience
 
-### ZUU Inc. (April 2022 – Present)
+### ZUU Co., Ltd., Tokyo, Japan
 
-Responsible for maintaining and operating in-house products, building new tenants, developing new features, and supporting marketing through BI development.
+**Software Engineer / Team Lead** | April 2022 – May 2025
 
-#### Product Maintenance and Operation
+Responsible for the maintenance and operations, new tenant provisioning, new feature development, and BI development for proprietary products, including leading a team of 3-4 engineers.
 
-Currently leading the maintenance and operation team for a content management system hosted on Google Kubernetes Engine. Duties include:
+#### MP Cloud Maintenance & Operations:
 
-- Handling inquiries from internal and external sources.
-- Organizing development requests and defining requirements using tools like Google Docs and FigJam.
-- Developing backend using Go and infrastructure via Kubernetes and Terraform.
-- Frontend development with Vue.js and Nuxt.
-- Automated testing using CI pipelines (unit testing in Go).
-- Manual user-facing tests (integration, E2E tests).
-- Deployments using ArgoCD and Spinnaker.
-- Managing issues using backlog.
+*   Led the maintenance and operations of "MP Cloud" (a CMS for owned media), supporting ~20 tenants with peak traffic up to 1 million monthly page views.
+*   Spearheaded over 10 critical incident responses, including service outages, performance degradations, and data inconsistencies, ensuring product stability and rapid recovery.
+*   Diagnosed and resolved complex technical issues by analyzing logs and metrics, conducting root cause analysis for GKE application failures, performance bottlenecks (DB indexing, algorithmic complexity, Redis scan issues), and VPC network problems.
+*   Implemented a structured incident response process using a checklist for multi-person collaboration, ensuring prompt communication and information sharing with stakeholders (business teams, management).
+*   Conducted post-incident reviews and implemented preventative measures such as enhancing monitoring, revising regression test procedures, and updating infrastructure diagrams to prevent recurrence.
+*   Established and operated an SLO-based monitoring system using Datadog, setting alerts based on critical user journeys (CUJ) for swift issue detection and severity assessment.
+*   Proactively analyzed application error logs, identified root causes of unnecessary errors, and implemented Go code fixes, significantly improving monitoring signal-to-noise ratio and operational efficiency.
+*   Managed and provisioned new tenant infrastructure on GCP, including regular maintenance.
 
-Also responsible for monitoring application logs, investigating error logs, and troubleshooting resource states on GCP.
+#### New Feature Development (MP Cloud):
 
-#### BI Development for Marketing Support
+*   Developed new backend features and API improvements in Go, often addressing operational challenges identified during maintenance.
+*   Designed and implemented a new microservice for managing content edit history, built on a separate codebase and infrastructure (Go, API Gateway, Cloud Run, MongoDB, ArgoCD), to reduce technical debt in the main application, decrease maintenance costs, and improve CMS value. Selected technologies like Cloud Run for cost efficiency with cold start tolerance and MongoDB for high write performance requirements.
+*   Led the implementation of 3D Secure authentication for the company's media site (Go, Vue.js), enhancing security and preventing fraudulent transactions. Created detailed Design Docs outlining requirements, technical specifications, and design.
+*   Ensured high quality for critical payment-related features by thoroughly documenting over 100 test cases across multiple scenarios in a spreadsheet, performing comprehensive unit, regression, and integration testing.
+*   Coordinated directly with payment gateway vendors to clarify technical requirements and testing procedures, ensuring smooth integration and compliance.
 
-Collaboratively work on business intelligence design, development, and maintenance to increase conversion for media platforms operated jointly by the company and clients. Responsibilities include:
+#### BI Development for Marketing Support:
 
-- Business issue identification through interviews with stakeholders.
-- Constructing data warehouses with BigQuery and dbt.
-- Designing and building dashboards using Looker Studio.
+*   Designed, developed, and maintained Business Intelligence (BI) solutions to support marketing initiatives focused on conversion rate optimization.
+*   Collaborated with marketing stakeholders and management to identify business challenges, define KPIs, and formulate data-driven solutions.
+*   Built and maintained data warehouses using BigQuery and dbt, designing dashboards with FigJam and implementing them in Looker Studio to visualize key business metrics and track KPI progress.
 
-### Aqua Inc. (April 2020 – March 2022)
+### Aqua Co., Ltd., Tokyo, Japan
 
-Engaged in two contract development projects, handling backend and frontend development based on self-defined requirements and designs. Also responsible for the corporate site renewal.
+**Software Engineer** | April 2020 – March 2022
+
+Involved in two outsourced development projects, responsible for backend and frontend development based on self-created requirements definitions and designs.
+
+*   Developed backend and frontend for two outsourced projects from requirements definition to implementation.
+*   Responsible for the backend and frontend development of the company's corporate website renewal project.
 
 ---
 
-## Strengths as a Software Engineer
+## Education
 
-- Strong background in backend development and leading small engineering teams.
-- Ability to independently handle the full development lifecycle from requirements gathering to deployment.
-- More than two years of experience in maintaining and operating products, collaborating with end-users and designers.
-- Extensive experience in handling production incidents, from detection to resolution and post-incident review.
+**The University of Tokyo**, Tokyo, Japan
+*Master of Science in Physics* | March 2020
+
+**Yokohama National University**, Kanagawa, Japan
+*Bachelor of Science in Engineering* | March 2018
 
 ---
 
 ## Certifications
 
-Applied Information Technology Engineer Certification (December 2021)
+**Applied Information Technology Engineer Examination (AP)**
+*Information-technology Promotion Agency, Japan (IPA)* | December 2021
