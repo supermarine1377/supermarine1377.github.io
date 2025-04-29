@@ -1,1 +1,3 @@
-I got tech icons from https://badges.pages.dev/
+## icons
+
+https://badges.pages.dev/
