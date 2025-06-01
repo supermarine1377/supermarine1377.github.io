@@ -34,6 +34,8 @@ Highly motivated and results-oriented Software Engineer with 3+ years of experie
 
 ## Professional Experience
 
+### Insight Edge, Inc., Tokyo, Japan
+
 ### ZUU Co., Ltd., Tokyo, Japan
 
 **Software Engineer / Team Lead** | April 2022 – May 2025
