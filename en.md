@@ -1,94 +1,100 @@
 # Ryo Koezuka
 
-<supermarinep@outlok.jp>
+<supermarine@outlook.jp>
 
 ---
 
-## Summary / Professional Summary
+## Professional Summary
 
-Highly motivated and results-oriented Software Engineer with 3+ years of experience specializing in the maintenance and operations of web applications, leveraging a strong background in cloud infrastructure (GCP), backend development (Go), and team leadership. Proven ability to enhance system reliability, resolve critical incidents swiftly, optimize performance, and contribute to product evolution through strategic development and architectural design. Demonstrated success in improving operational efficiency, standardizing processes, and mentoring team members in a fast-paced environment. Seeking to apply comprehensive technical skills and leadership experience to contribute to challenging projects.
+Results-oriented Senior Site Reliability Engineer (SRE) / Platform Engineer with a proven track record of eliminating operational silos and driving organizational efficiency through "Documentation as Code," data-driven operations, and advanced architecture. Adept at leveraging modern cloud ecosystems (GCP), Infrastructure as Code (Terraform), and Generative AI (LLMs) to build resilient, automated CI/CD pipelines and microservices. Excels in defining business-critical KPIs (dbt/BigQuery), enforcing architectural governance, and leading cross-functional initiatives to reduce technical debt. Passionate about transforming chaotic operational environments into highly observable, automated systems that directly impact business value.
 
 ---
 
-## Skills
+## Core Competencies
 
-### Technical Skills
+* **Platform Engineering & Automation:** Architecting "Documentation as Code" pipelines (Git, CI/CD, BigQuery) to prevent knowledge degradation. Automating system evaluations and operational workflows using LLMs.
+* **Data-Driven SRE:** Defining and modeling operational KGI/KPIs using dbt and BigQuery to visualize ROI and engineering toil, enabling data-driven management decisions.
+* **Cloud Architecture & IaC:** Deep expertise in GCP (GKE, Cloud Run) and Terraform. Designing scalable, cost-effective microservices (Go, MongoDB) and enforcing infrastructure governance via Terraform Cloud.
+* **Incident Management & Troubleshooting:** Rapidly diagnosing and resolving complex distributed system failures (network latency, GKE internals, DB bottlenecks) based on SLOs/SLIs, and implementing code-level preventative measures.
+* **Technical Leadership ("Right Hand" Influence):** Enforcing security and architectural standards across development teams through CI/CD pipeline guardrails, rather than micromanagement. Successfully steering external vendors and aligning technical operations with business contracts.
 
-* **Languages:** Go, Vue.js, SQL
-* **Cloud & Infrastructure:** Google Cloud Platform (GCP - GKE, Cloud Run, Compute Engine, Cloud SQL, Cloud Armor, Cloud Build, Container Registry, Memorystore, Cloud Monitoring, Cloud Storage, Cloud Function, Cloud CDN, Cloud Load Balancer, Pub/Sub), Terraform, Docker, Kubernetes, Helm
+---
+
+## Technical Skills
+
+* **Languages:** Go, SQL, Vue.js, Python (for data/AI scripting)
+* **Cloud Infrastructure:** Google Cloud Platform (GKE, Cloud Run, Cloud SQL, Compute Engine, Cloud Armor, Cloud Build, Cloud Storage, Pub/Sub, Cloud Load Balancing, etc.)
+* **Infrastructure as Code (IaC):** Terraform, Terraform Cloud, Helm, Docker, Kubernetes
 * **Databases:** PostgreSQL, MongoDB, Redis, ElasticSearch
-* **Monitoring & Logging:** Datadog, Cloud Monitoring, ElasticSearch
-* **CI/CD:** GitHub Actions, CircleCI, Argo CD, Spinnaker
-* **Project Management & Collaboration:** Backlog, Slack, FigJam, Google Documents
-* **BI & Data:** Google BigQuery, dbt, Looker Studio
-* **Version Control:** Git, GitHub
-* **CMS:** WordPress
-
-### Other Skills
-
-* Team Leadership & Management (Led a 3-4 member team)
-* Facilitation (Ensuring meeting objectives are met efficiently)
-* Investment (Exploring individual stock investment, reflecting interest in finance)
+* **Observability & Monitoring:** Datadog, Google Cloud Monitoring
+* **CI/CD:** GitHub Actions, Argo CD, CircleCI, Spinnaker
+* **Data Engineering & BI:** Google BigQuery, dbt, Looker Studio
+* **AI & Orchestration:** LLMs (Claude, ChatGPT API) for architecture design and CI/CD automation
+* **Version Control & Collaboration:** Git, GitHub, Backlog, Slack, FigJam
 
 ---
 
 ## Professional Experience
 
-### Insight Edge, Inc., Tokyo, Japan
+### Insight Edge, Inc. | Tokyo, Japan
 
-### ZUU Co., Ltd., Tokyo, Japan
+**SRE / Platform Engineer** | June 2025 – Present
 
-**Software Engineer / Team Lead** | April 2022 – May 2025
+Leading the modernization and automation of enterprise-wide system maintenance and operations for the Sumitomo Corporation Group's digital transformation entity. As the founding member of the OAM (Operations & Maintenance) team, architected self-sustaining operational platforms to eliminate human dependencies and reduce developer toil.
 
-Responsible for the maintenance and operations, new tenant provisioning, new feature development, and BI development for proprietary products, including leading a team of 3-4 engineers.
+* **Documentation as Code & LLM-Driven Automation:**
+  * Architected a centralized GitHub-based management system for operational manuals and service portfolios.
+  * Engineered a CI/CD pipeline (GitHub Actions) to automatically sync manual data into BigQuery, ensuring operational documents are never outdated.
+  * Integrated LLMs into the deployment pipeline to automatically evaluate, score, and propose improvements for operational manuals, significantly elevating company-wide documentation quality.
+* **Data-Driven SRE & Observability:**
+  * Defined 7 core KGI/KPIs to quantify operational burdens and vendor performance (e.g., developer involvement rate, incident lead time).
+  * Modeled these KPIs using **dbt** and built automated dashboards in **Looker Studio**, providing executive visibility and successfully tracking the reduction of developer operational involvement to 63% and effort ratio to 24%.
+* **Architecture Governance & NFR Standardization:**
+  * Formulated a comprehensive Non-Functional Requirements (NFR) framework (Security, Availability, Maintainability) to standardize disparate project architectures.
+  * Enforced infrastructure governance by mandating Terraform Cloud usage and developing plug-and-play GitHub Actions workflow templates for automated security checks.
+  * Spearheaded the inventory management and update policies for AI models used across all projects, mitigating risks associated with cloud vendor deprecations.
+* **Vendor Management & Incident Operations:**
+  * Established robust escalation flows for both routine and non-routine tasks, successfully migrating 6 projects to external IT vendors.
+  * Led weekly vendor alignment meetings, directly contributing to the optimization of contract boundaries (e.g., addressing the superficiality of 5-hour support caps).
 
-#### MP Cloud Maintenance & Operations
+### ZUU Co., Ltd. | Tokyo, Japan
 
-* Led the maintenance and operations of "MP Cloud" (a CMS for owned media), supporting ~20 tenants with peak traffic up to 1 million monthly page views.
-* Spearheaded over 10 critical incident responses, including service outages, performance degradations, and data inconsistencies, ensuring product stability and rapid recovery.
-* Diagnosed and resolved complex technical issues by analyzing logs and metrics, conducting root cause analysis for GKE application failures, performance bottlenecks (DB indexing, algorithmic complexity, Redis scan issues), and VPC network problems.
-* Implemented a structured incident response process using a checklist for multi-person collaboration, ensuring prompt communication and information sharing with stakeholders (business teams, management).
-* Conducted post-incident reviews and implemented preventative measures such as enhancing monitoring, revising regression test procedures, and updating infrastructure diagrams to prevent recurrence.
-* Established and operated an SLO-based monitoring system using Datadog, setting alerts based on critical user journeys (CUJ) for swift issue detection and severity assessment.
-* Proactively analyzed application error logs, identified root causes of unnecessary errors, and implemented Go code fixes, significantly improving monitoring signal-to-noise ratio and operational efficiency.
-* Managed and provisioned new tenant infrastructure on GCP, including regular maintenance.
+**Software Engineer / SRE Lead** | April 2022 – May 2025
 
-#### New Feature Development (MP Cloud)
+Led SRE initiatives, microservices development, and BI integrations for "MP Cloud" (a CMS for owned media, supporting ~20 tenants and 1M+ monthly PVs), managing a 4-member engineering team.
 
-* Developed new backend features and API improvements in Go, often addressing operational challenges identified during maintenance.
-* Designed and implemented a new microservice for managing content edit history, built on a separate codebase and infrastructure (Go, API Gateway, Cloud Run, MongoDB, ArgoCD), to reduce technical debt in the main application, decrease maintenance costs, and improve CMS value. Selected technologies like Cloud Run for cost efficiency with cold start tolerance and MongoDB for high write performance requirements.
-* Led the implementation of 3D Secure authentication for the company's media site (Go, Vue.js), enhancing security and preventing fraudulent transactions. Created detailed Design Docs outlining requirements, technical specifications, and design.
-* Ensured high quality for critical payment-related features by thoroughly documenting over 100 test cases across multiple scenarios in a spreadsheet, performing comprehensive unit, regression, and integration testing.
-* Coordinated directly with payment gateway vendors to clarify technical requirements and testing procedures, ensuring smooth integration and compliance.
+* **SRE & Incident Management:**
+  * Spearheaded resolution for 10+ critical incidents (GKE troubleshooting, DB index bottlenecks, Redis scan issues, WAF blocks, VPC network failures).
+  * Implemented an SLO-based monitoring framework using Datadog, prioritizing alerts based on Critical User Journeys (CUJ) to reduce operational noise.
+  * Conducted root-cause analysis and pushed upstream Go code fixes to eliminate unnecessary error logs, drastically improving system observability.
+* **Infrastructure Automation (IaC):**
+  * Automated new tenant infrastructure provisioning using Terraform and GKE, reducing deployment time by 50% (from 16 hours to 8 hours).
+* **Microservices Architecture & Development:**
+  * Architected and developed an independent microservice in **Go** to manage CMS content edit history, decoupling it from the monolithic codebase.
+  * Selected **Cloud Run** for cost-efficient cold starts and **MongoDB** (later migrated to GKE StatefulSet) for optimal write performance. Integrated via API Gateway.
+  * Led the integration of 3D Secure authentication (Go, Vue.js), writing extensive Design Docs and executing 100+ automated/manual test cases to ensure payment security.
+* **Data Engineering (Marketing Support):**
+  * Built data pipelines and data warehouses using BigQuery and dbt to track business KPIs, delivering actionable Looker Studio dashboards to marketing stakeholders.
 
-#### BI Development for Marketing Support
-
-* Designed, developed, and maintained Business Intelligence (BI) solutions to support marketing initiatives focused on conversion rate optimization.
-* Collaborated with marketing stakeholders and management to identify business challenges, define KPIs, and formulate data-driven solutions.
-* Built and maintained data warehouses using BigQuery and dbt, designing dashboards with FigJam and implementing them in Looker Studio to visualize key business metrics and track KPI progress.
-
-### Aqua Co., Ltd., Tokyo, Japan
+### Aqua Co., Ltd. | Tokyo, Japan
 
 **Software Engineer** | April 2020 – March 2022
 
-Involved in two outsourced development projects, responsible for backend and frontend development based on self-created requirements definitions and designs.
-
-* Developed backend and frontend for two outsourced projects from requirements definition to implementation.
-* Responsible for the backend and frontend development of the company's corporate website renewal project.
+* Designed, developed, and delivered backend and frontend systems for two major outsourced client projects.
+* Led the full-stack renewal of the corporate website from requirements gathering to deployment.
 
 ---
 
 ## Education
 
-**The University of Tokyo**, Tokyo, Japan
+**The University of Tokyo** | Tokyo, Japan
 *Master of Science in Physics* | March 2020
 
-**Yokohama National University**, Kanagawa, Japan
+**Yokohama National University** | Kanagawa, Japan
 *Bachelor of Science in Engineering* | March 2018
 
 ---
 
 ## Certifications
 
-**Applied Information Technology Engineer Examination (AP)**
-*Information-technology Promotion Agency, Japan (IPA)* | December 2021
+* **Applied Information Technology Engineer Examination (AP)** | Information-technology Promotion Agency, Japan (IPA) | December 2021
