@@ -32,6 +32,7 @@
 ## 技術スタック
 
 ### バックエンド
+
 言語, 単体テスト
 ![Go Badge](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=fff&style=flat)
 
@@ -56,14 +57,17 @@ CI/CD
 ![ArgoCD](https://img.shields.io/badge/Argo%20CD-1e0b3e?style=for-the-badge&logo=argo&logoColor=#d16044)
 
 ### フロントエンド
+
 ![Nuxt.js Badge](https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxtdotjs&logoColor=fff&style=flat)
 
 ### データエンジニアリング / BI
+
 ![Google BigQuery Badge](https://img.shields.io/badge/Google%20BigQuery-669DF6?logo=googlebigquery&logoColor=fff&style=flat)
 ![dbt Badge](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=fff&style=flat)
 ![Looker Badge](https://img.shields.io/badge/Looker-4285F4?logo=looker&logoColor=fff&style=flat)
 
 ### その他（AI支援・ツール）
+
 - LLM (Claude, ChatGPT API等を用いたアーキテクチャ設計・自動化パイプライン構築)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff&style=flat)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat)
@@ -73,6 +77,7 @@ CI/CD
 ## 職務経歴詳細
 
 ### 株式会社Insight Edge （2025年6月から現在）
+
 住友商事グループのDXを推進する技術専門会社にて、SRE / プラットフォームエンジニアとして全社横断的なシステム運用保守の自動化・高度化を主導。
 
 OAM（運用保守）チームの第1号社員として、「開発チームが運用保守から手離れできる仕組みづくり」をミッションとし、属人化の排除とデータドリブンな運用体制の構築をゼロから提案・実装している。
@@ -95,12 +100,14 @@ OAM（運用保守）チームの第1号社員として、「開発チームが�
   - 外部委託先を巻き込んだ定型/非定型作業のエスカレーションフローを構築し、6案件の運用保守移管を完遂。週次定例にて外部ベンダーのコントロールを主導。
 
 概要の一部をテックブログに寄稿しております。
-https://techblog.insightedge.jp/entry/ops-basis
+<https://techblog.insightedge.jp/entry/ops-basis>
 
 ### 株式会社ZUU （2022年4月から2025年6月）
+
 自社プロダクトの保守運用、新規テナント構築、新機能開発、BI開発によるマーケティング支援に従事。
 
 #### 1. 自社プロダクト（MP Cloud）の保守運用・SRE業務
+
 対象: 約20テナント、最大月間100万PV規模のオウンドメディア向けCMS。4名チームのリーダー。
 使用技術: Go, GCP (GKE, Cloud SQL, Cloud Run 等), Terraform, Postgres, Redis, Datadog 等。
 
@@ -112,6 +119,7 @@ https://techblog.insightedge.jp/entry/ops-basis
   - Terraformによる新規テナントインフラ構築手順を標準化・自動化し、構築時間を16時間から8時間へ半減。
 
 #### 2. 新規機能・マイクロサービス開発
+
 - **編集履歴管理マイクロサービスのアーキテクチャ設計・開発**
   - 複雑化したモノリス（MP Cloud）から機能を切り離し、Cloud Run + API Gateway + MongoDBによる独立したマイクロサービスを設計・実装。
   - コスト効率（コールドスリープ活用）と参照・書き込み特性を考慮したNoSQLの技術選定を主導し、GKE上のStatefulSetへの移管まで担当。
@@ -120,9 +128,11 @@ https://techblog.insightedge.jp/entry/ops-basis
   - Design Docsの作成、100件以上のテストケース作成による退行テスト・結合テストを実施し、高レベルの品質保証を実現。
 
 #### 3. BI開発によるデータ分析基盤構築
+
 - コンバージョン増加を目的とし、マーケティング担当者と協業。BigQuery, dbt, Looker Studioを用いてデータウェアハウスとダッシュボードを構築し、データ駆動の意思決定を支援。
 
 ### 株式会社アクア (2020年4月から2022年3月)
+
 2つの受託開発案件にて、要件定義・設計からバックエンド/フロントエンドの開発までフルスタックに従事。自社コーポレートサイトのリニューアルも主導。
 
 ---
@@ -145,4 +155,3 @@ https://techblog.insightedge.jp/entry/ops-basis
 ## 取得資格
 
 - 応用情報処理技術者（2021年12月取得）
-
