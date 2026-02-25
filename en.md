@@ -53,9 +53,12 @@ Leading the modernization and automation of enterprise-wide system maintenance a
   * Formulated a comprehensive Non-Functional Requirements (NFR) framework (Security, Availability, Maintainability) to standardize disparate project architectures.
   * Enforced infrastructure governance by mandating Terraform Cloud usage and developing plug-and-play GitHub Actions workflow templates for automated security checks.
   * Spearheaded the inventory management and update policies for AI models used across all projects, mitigating risks associated with cloud vendor deprecations.
-* **Vendor Management & Incident Operations:**
+* **Vendor Management**
   * Established robust escalation flows for both routine and non-routine tasks, successfully migrating 6 projects to external IT vendors.
   * Led weekly vendor alignment meetings, directly contributing to the optimization of contract boundaries (e.g., addressing the superficiality of 5-hour support caps).
+* **Incident Operations**
+  * Defined incident operation rule as company-wide operation rule
+  * Lead a real incident operation complied with the rule
 
 ### ZUU Co., Ltd. | Tokyo, Japan
 
