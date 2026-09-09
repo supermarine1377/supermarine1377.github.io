@@ -161,4 +161,5 @@ OAM（運用保守）チームの第1号社員として、「開発チームが�
 ## OSS貢献
 
 自社業務でDatadog組織にログインするのに必要なSAML metadataを設定する業務がトイルだったため、Terraformにて自動設定できるようにTerraformのDatadogプロバイダの改修を行なった
+
 https://github.com/DataDog/terraform-provider-datadog/pull/4117
