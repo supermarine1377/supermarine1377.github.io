@@ -157,3 +157,8 @@ OAM（運用保守）チームの第1号社員として、「開発チームが�
 ## 取得資格
 
 - 応用情報処理技術者（2021年12月取得）
+
+## OSS貢献
+
+自社業務でDatadog組織にログインするのに必要なSAML metadataを設定する業務がトイルだったため、Terraformにて自動設定できるようにTerraformのDatadogプロバイダの改修を行なった
+https://github.com/DataDog/terraform-provider-datadog/pull/4117
